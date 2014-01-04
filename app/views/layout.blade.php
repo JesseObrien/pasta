@@ -20,8 +20,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://laravel.com">
-        {{ HTML::image('img/logo-head.png', 'Laravel', ['style' => 'height: 20px;']) }}
+      <a class="navbar-brand" href="http://paste.jesse-obrien.ca">
+          Pasta
       </a>
     </div>
 
@@ -46,5 +46,15 @@
   {{ HTML::script('js/tabby.js') }}
   {{ HTML::script('js/script.js') }}
   @yield('scripts')
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46802541-1', 'jesse-obrien.ca');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>
