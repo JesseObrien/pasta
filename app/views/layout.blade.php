@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Laravel Paste Bucket</title>
+  <title>Pasta Bucket</title>
   <meta name="viewport" content="width=device-width">
 
   {{ HTML::style('css/bootstrap.min.css') }}
@@ -21,7 +21,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="http://paste.jesse-obrien.ca">
-          Pasta
+          Pasta | <small>Note: Everything on this bucket will be wiped daily at 12:00am EST.</small>
       </a>
     </div>
 
