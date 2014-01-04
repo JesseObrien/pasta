@@ -30,6 +30,7 @@ class AddForkOfColumnToPastesTable extends Migration {
 	{
 		Schema::table('pastes', function(Blueprint $table)
 		{
+			$table->dropForeign('pastes_fork_of_foreign');
 			$table->dropColumn('fork_of');
 		});
 	}
