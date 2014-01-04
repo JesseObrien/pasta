@@ -26,6 +26,11 @@ class PasteController extends \BaseController {
 	    return Redirect::route('create')->withErrors($validator);
 	  }
 
+      if (Input::get('emp_tee') !== "")
+      {
+            return App::abort(404);
+      }
+
 	  $paste = Paste::create([
 	  	'paste' => Input::get('paste'),
 	  	'fork_of' => Input::get('fork', null)
