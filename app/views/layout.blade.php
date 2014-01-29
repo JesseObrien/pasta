@@ -21,7 +21,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="http://paste.jesse-obrien.ca">
-          Pasta | <small>Note: Everything on this bucket will be wiped daily at 12:00am EST.</small>
+          Pasta 
       </a>
     </div>
 
